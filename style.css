@@ -1,0 +1,374 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+    list-style: none;
+}
+body {
+    display:inline-block;
+    background-image: url(aset/background2.jpg);
+}
+.brand span {
+    margin-left: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:white;
+}
+.brand li,a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color :white;
+    margin:5px;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    padding:10px 5%;
+    background-color: rgb(10, 9, 8);
+}
+.brand li {
+    display: inline-block;
+}
+.brand li a:hover {
+    color: #099FFF;
+    -ms-ticks-after: #099FFF;
+}
+.brand span {
+    margin-right: 200px;
+    text-shadow: 2px 2px 5px rgb(0, 225, 255);
+}
+.cari {
+    border-radius: 25px;
+    padding:8px 9px;
+    display: inline-block;
+    width:40px;
+
+}
+.cari:hover {
+    width:150px;
+    transition: 1s ease;
+}
+.brand button{
+    padding:9px 10px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.3s ease 0;
+}
+.brand button:hover {
+    background-color: rgba(0,136,169,0,8);
+}
+/*bagian jumbotron*/
+
+.jumbotron {
+    height:400px;
+    margin-top:0;
+    background-image: url(aset/banner.jpg);
+    background-size: cover;
+    background-position-y:-100px;
+    background-color:black;
+    opacity : 0.9;
+    animation: change 10s infinite;
+
+}
+@keyframes change {
+    50% {
+        background-image: url(aset/banner2.jpg);
+    }
+}
+.text-brand {
+    margin-left: 50px;
+    padding:70px;
+    color:#edf0f1;
+}
+.text-brand h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+}
+.taxt-brand p {
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 1px 1px;
+    color:white;
+}
+.btn-jelajahi {
+    width: 180px;
+    height: 40px;
+    background-color: silver;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-jelajahi:hover {
+    height:35px;
+    width:165px;
+    font-size: 20px;
+}
+.btn-jelajahi a {
+    padding:10px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px navy;
+}
+.btn-video {
+    width: 180px;
+    height: 40px;
+    background-color: silver;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-video:hover {
+    height:35px;
+    width:165px;
+    font-size: 20px;
+}
+.btn-video a {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px navy;
+}
+/*bagian kontent*/
+
+.content {
+    margin:5px;
+    padding:10px;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+}
+.content .gambarobjek {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.content .isian h1 {
+    font-size: 35px;
+    text-align: justify;
+    color:whitesmoke;
+}
+.content .isian p {
+    font-size:20px;
+    text-align: justify;
+    padding:5px;
+    color:whitesmoke;
+}
+.content .isian .baca {
+    font-size:20px;
+    text-align: justify;
+    color:whitesmoke;
+    text-decoration: none;
+}
+.link-img {
+    text-decoration: none;
+    font-size: 20px;
+    color:navy;
+}
+/*bagian card box*/
+
+.kolom {
+    margin:5px;
+    padding:10px;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.2 );
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.pricee {
+    color:whitesmoke;
+    font-size:22px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding:5px;
+    color:white;
+    background-color:navy;
+    text-align: center;
+    width:100%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.card button:hover {
+    color:gray;
+}
+.crad button:hover {
+    opacity: -20;
+}
+.penginapan h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin:10px;
+     font-family: 'Courier New', Courier, monospace;
+    color:whitesmoke;
+
+}
+/*bagian kontak*/
+.kontak {
+    background-color:black;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap : 1px ;
+    -moz-column-gap : 1px;
+    -webkit-column-gap: 1px;
+    height:350px;
+    opacity:90%;
+}
+.kontak-pesan {
+    height:305px;
+    display: flexbox;
+}
+.nama {
+    width:250px;
+    height: 25px;
+    margin-top: 20px;
+    padding-left: 5px;
+    border-radius:10px;
+    margin-left: 95px;
+}
+.email {
+    width:250px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius:10px;
+    margin-left: 95px;
+}
+.hari {
+    width:250px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius:10px;
+    margin-left: 95px;
+}
+.pe {
+    height:80px;
+    width: 250px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius:10px;
+    padding-left: 5px;
+    margin-left: 95px;
+}
+.tombol {
+    text-align: center;
+    background-color: blue;
+    width:80px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius:5px;
+    font-size: 15px;
+    margin-left: 270px;
+    border:none;
+}
+.tombol:hover {
+    width:70px;
+    height:25px;
+    font-size: 15px;
+}
+.kontak-pesan h3 {
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 30px;
+    color : rgb(255, 255, 255);
+    margin-left: 95px;
+    text-decoration: underline;
+}
+/*bagian medsos*/
+.medsos {
+    height:305px;
+    display: flexbox;
+}
+.ul-medsos h2 {
+    padding-top:15px;
+    margin-top: 15px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.li-medsos {
+    font-size: 30px;
+    margin-left: 30px;
+    margin:20px;
+}
+.medsos a {
+    color:whitesmoke;
+}
+/*bagian maps*/
+h5 {
+    padding-top:15px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.map {
+    margin-top: 20px;
+    width:400px;
+    height:240px;
+    border-radius: 15px;
+}
+/*bagian footer*/
+.footer {
+    background-color: rgba(0,0,0,0.8);
+    color:whitesmoke;
+    height:30px;
+    text-align: center;
+    justify-content: center;
+    padding-top:10px;
+}
+/*bagian galeri*/
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-gap:5px; 
+    margin: 10px;
+}
+.galeri img {
+    width:100%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.bok {
+    padding: 10px;
+}
+.galery h3 {
+    margin :10px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:whitesmoke;
+}
